@@ -17,20 +17,21 @@
         img:hover {      opacity: 0.4;        }
     
         div.animation {
-            width: 100px;
+            width: 10px;
             height: 100px;
             background: black;
             position:relative;
-            animation: 2s myanim;
+            animation: 4s myanim;
             animation-iteration-count: 10;
         }
         @keyframes myanim
         {
-            0%   {left:0px; top:0px;}
-            25%  {left:100px; top:100px;}
-            50%  {left:200px; top:200px;}
-            75%  {left:100px; top:100px;}
-            100% {left:0px; top:0px;}
+            0%   {left:-10px; top:0px;}
+            20%  {left:-10px; top:500px;}
+            40%  {left:-10px; top:100px;}
+            60%  {left:-10px; top:400px;}
+            80%  {left:-10px; top:200px;}
+            100% {left:-10px; top:300px;}
         }
 
 
@@ -42,6 +43,7 @@
       
       
       <header>
+<div class="animation">
        <h1>Crm</h1>
         <p></p>
         <h1> 안녕하세요</h1>
@@ -53,6 +55,7 @@
           <li><a href="https://github.com/thesun4sky/CRM/tarball/master">Download <strong>TAR Ball</strong></a></li>
           <li><a href="https://github.com/thesun4sky/CRM">View On <strong>GitHub</strong></a></li>
         </ul>
+        </div>
         </header>
       
       
@@ -222,7 +225,6 @@ HTML5,CSS,Javascript,jQeury,SQL,JSP...
     <input type="file" accept="image/jpg,image/gif">
 </form>
 
-<div class="animation"></div>
 
 
   <br/><br/><br/><br/>
