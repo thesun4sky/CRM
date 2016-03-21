@@ -16,7 +16,7 @@
     <div class="wrapper">
       
       
-      <nav>
+      <header>
        <h1>Crm</h1>
         <p></p>
         <h1> 안녕하세요</h1>
@@ -28,7 +28,7 @@
           <li><a href="https://github.com/thesun4sky/CRM/tarball/master">Download <strong>TAR Ball</strong></a></li>
           <li><a href="https://github.com/thesun4sky/CRM">View On <strong>GitHub</strong></a></li>
         </ul>
-        </nav>
+        </header>
       
       
       <section>
@@ -173,6 +173,18 @@ HTML5,CSS,Javascript,jQeury,SQL,JSP...
     <input type="submit" value="제출(팝업창)" onclick="alert('입력완료')">
     <input type="reset" value="초기화">
 </form>
+
+<form name="imageform" action="test.jsp" method="post">
+  <select name="성별">
+    <option value="man">남자</option>
+    <option value="woman" selected>여자</option>
+    <option value="etc">기타</option>
+  </select>
+  <input type="image" src="buttonimg.JPG" alt="제출 버튼">
+</form>
+
+
+
 
 <form enctype="multipart/form-data">
     <input type="file" accept="image/jpg,image/gif">
