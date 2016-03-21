@@ -13,12 +13,11 @@
     <![endif]-->
     
     <style> //이미지 후버
-        img {            opacity: 0.4;        }
-        img:hover {      opacity: 1.0;        }
+        img {            opacity: 1.0;        }
+        img:hover {      opacity: 0.4;        }
     </style>
     
-        <style> //애니메이션
-        div {
+        div.animation {
             width: 100px;
             height: 100px;
             background: red;
@@ -34,7 +33,6 @@
             75%  {left:100px; top:0px;}
             100% {left:0px; top:0px;}
         }
-    </style>
 
 
 
@@ -223,6 +221,8 @@ HTML5,CSS,Javascript,jQeury,SQL,JSP...
 <form enctype="multipart/form-data">
     <input type="file" accept="image/jpg,image/gif">
 </form>
+
+<div class="animation"></div>
 
 
   <br/><br/><br/><br/>
