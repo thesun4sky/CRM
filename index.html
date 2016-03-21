@@ -16,22 +16,52 @@
         img {            opacity: 1.0;        }
         img:hover {      opacity: 0.4;        }
     
-        div.animation {
+        div.animation1 {
             width: 10px;
             height: 100px;
             background: black;
             position:relative;
-            animation: 4s myanim;
-            animation-iteration-count: 10;
+            animation: 4s myanim1;
+            animation-iteration-count: 1;
+        }div.animation2 {
+            width: 10px;
+            height: 100px;
+            background: silver;
+            position:relative;
+            animation: 4s myanim2;
+            animation-iteration-count: 1;
+        }div.animation3 {
+            width: 10px;
+            height: 100px;
+            background: blue;
+            position:relative;
+            animation: 4s myanim3;
+            animation-iteration-count: 1;
         }
-        @keyframes myanim
+        @keyframes myanim1
         {
             0%   {left:-10px; top:0px;}
-            20%  {left:-10px; top:500px;}
-            40%  {left:-10px; top:100px;}
-            60%  {left:-10px; top:400px;}
-            80%  {left:-10px; top:200px;}
-            100% {left:-10px; top:300px;}
+            20%  {left:-10px; top:200px;}
+            40%  {left:-10px; top:0px;}
+            60%  {left:-10px; top:0px;}
+            80%  {left:-10px; top:0px;}
+            100%  {left:-10px; top:0px;}
+        }@keyframes myanim2
+        {
+            0%   {left:110px; top:0px;}
+            20%  {left:110px; top:0px;}
+            40%  {left:110px; top:200px;}
+            60%  {left:110px; top:0px;}
+            80%  {left:110px; top:0px;}
+            100%  {left:110px; top:0px;}
+        }@keyframes myanim3
+        {
+            0%   {left:210px; top:0px;}
+            20%  {left:210px; top:0px;}
+            40%  {left:210px; top:0px;}
+            60%  {left:210px; top:200px;}
+            80%  {left:210px; top:0px;}
+            100%  {left:210px; top:0px;}
         }
 
 
