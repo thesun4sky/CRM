@@ -12,10 +12,30 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     
-    <style>
+    <style> //이미지 후버
         img {            opacity: 0.4;        }
         img:hover {      opacity: 1.0;        }
     </style>
+    
+        <style> //애니메이션
+        div {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position:relative;
+            animation: 2s myanim;
+            animation-iteration-count: 10;
+        }
+        @keyframes myanim
+        {
+            0%   {left:0px; top:0px;}
+            25%  {left:100px; top:0px;}
+            50%  {left:200px; top:0px;}
+            75%  {left:100px; top:0px;}
+            100% {left:0px; top:0px;}
+        }
+    </style>
+
 
 
   </head>
